@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7364" started-at="2022-07-08T11:33:07Z" finished-at="2022-07-08T11:33:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7364" started-at="2022-07-08T11:33:07Z" finished-at="2022-07-08T11:33:15Z">
+      <class name="RestAssuredAsignment.asuredClass$Assugnment">
+        <test-method status="PASS" signature="firstPOST(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:RestAssuredAsignment.asuredClass$Assugnment@cc285f4]" name="firstPOST" duration-ms="2749" started-at="2022-07-08T11:33:07Z" data-provider="postData" finished-at="2022-07-08T11:33:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nani]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[raju]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abc@xyz.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstPOST -->
+        <test-method status="PASS" signature="firstPUT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:RestAssuredAsignment.asuredClass$Assugnment@cc285f4]" name="firstPUT" duration-ms="1416" started-at="2022-07-08T11:33:10Z" data-provider="putData" depends-on-methods="RestAssuredAsignment.asuredClass$Assugnment.firstPOST" finished-at="2022-07-08T11:33:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nani]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hyd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[nani@xyz.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[34567]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstPUT -->
+        <test-method status="PASS" signature="firstDELETE(java.lang.String)[pri:0, instance:RestAssuredAsignment.asuredClass$Assugnment@cc285f4]" name="firstDELETE" duration-ms="1535" started-at="2022-07-08T11:33:11Z" data-provider="deleteData" depends-on-methods="RestAssuredAsignment.asuredClass$Assugnment.firstPUT" finished-at="2022-07-08T11:33:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nani]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstDELETE -->
+        <test-method status="PASS" signature="anotherGET(java.lang.String)[pri:0, instance:RestAssuredAsignment.asuredClass$Assugnment@cc285f4]" name="anotherGET" duration-ms="1637" started-at="2022-07-08T11:33:13Z" data-provider="deleteData" depends-on-methods="RestAssuredAsignment.asuredClass$Assugnment.firstDELETE" finished-at="2022-07-08T11:33:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nani]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anotherGET -->
+      </class> <!-- RestAssuredAsignment.asuredClass$Assugnment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
